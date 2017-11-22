@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadlyMaze", "Assembly-CSharp.csproj", "{AA78513E-D3ED-1472-D5B9-17BE5A014056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadlyMaze", "Assembly-CSharp-Editor.csproj", "{1B2DA3F6-877D-EA11-B71D-8A9C842E8CDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA78513E-D3ED-1472-D5B9-17BE5A014056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA78513E-D3ED-1472-D5B9-17BE5A014056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA78513E-D3ED-1472-D5B9-17BE5A014056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA78513E-D3ED-1472-D5B9-17BE5A014056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2DA3F6-877D-EA11-B71D-8A9C842E8CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2DA3F6-877D-EA11-B71D-8A9C842E8CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2DA3F6-877D-EA11-B71D-8A9C842E8CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2DA3F6-877D-EA11-B71D-8A9C842E8CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

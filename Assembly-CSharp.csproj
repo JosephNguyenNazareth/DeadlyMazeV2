@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AA78513E-D3ED-1472-D5B9-17BE5A014056}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Credit\New Folder\ChangePic.cs" />
+     <Compile Include="Assets\Credit\New Folder\FadePic.cs" />
+     <Compile Include="Assets\Credit\New Folder\FadeText.cs" />
+     <Compile Include="Assets\Credit\New Folder\PicMovement.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\FirstPerson\FirstPersonController.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\DragItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\Item.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemType.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
+     <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\GunAim.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\GunShoot.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+     <Compile Include="Assets\Models\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
+     <Compile Include="Assets\Models\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Models\Obstacles\Whale\Objects\Waletarget.cs" />
+     <Compile Include="Assets\Scripts\_MAINPLAYER.cs" />
+     <Compile Include="Assets\Scripts\FinishScreen.cs" />
+     <Compile Include="Assets\Scripts\FPS\check.cs" />
+     <Compile Include="Assets\Scripts\FPS\destroyShooterFlame.cs" />
+     <Compile Include="Assets\Scripts\FPS\Shooting1.cs" />
+     <Compile Include="Assets\Scripts\FPS\Target.cs" />
+     <Compile Include="Assets\Scripts\GameMenuOptionText.cs" />
+     <Compile Include="Assets\Scripts\hit.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\Explosive.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\FireLight.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\Hose.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\SmokeParticles.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Scripts\Main_Player\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\MoveToTarget.cs" />
+     <Compile Include="Assets\Scripts\MoveToTargetwolf.cs" />
+     <Compile Include="Assets\Scripts\OpenGate.cs" />
+     <Compile Include="Assets\Scripts\PauseScreen.cs" />
+     <Compile Include="Assets\Scripts\PoleMap.cs" />
+     <Compile Include="Assets\Scripts\PushWall.cs" />
+     <Compile Include="Assets\Scripts\ShooterFlame.cs" />
+     <Compile Include="Assets\Scripts\ShowItem.cs" />
+     <Compile Include="Assets\Scripts\TrapArrow.cs" />
+     <Compile Include="Assets\Scripts\TrapAxe.cs" />
+     <Compile Include="Assets\Scripts\TrapMace.cs" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
+     <None Include="Assets\Models\Main\sci-fi-weapons\README.txt" />
+     <None Include="Assets\Models\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\!WarFX Readme.txt" />
+     <None Include="Assets\Audio\Bfxr_WIN\Bfxr\META-INF\signatures.xml" />
+     <None Include="Assets\Scripts\Main_Player\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+     <None Include="Assets\Models\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Models\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\Scripts\Main_Player\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Models\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Scripts\Main_Player\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Scripts\Main_Player\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Models\Obstacles\woft\Wolf Rigged and Game Ready\Readme.txt" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+     <None Include="Assets\Audio\Bfxr_WIN\Bfxr\META-INF\AIR\application.xml" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+     <None Include="Assets\Models\cadnav.com_model\readme.txt" />
+     <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+     <None Include="Assets\InventoryMaster\readme.txt" />
+     <None Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Scripts\Main_Player\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/Admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/Admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

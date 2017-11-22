@@ -1,0 +1,13 @@
+sceneSetups:
+- path: Assets/_Scene/credit.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/_Scene/GameMenu.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/_Scene/maze1.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/_Scene/maze2.unity
+  isLoaded: 1
+  isActive: 1
