@@ -1,14 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PauseScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\_MAINPLAYER.cs">
     <Files>
       <File FileName="Assets\Scripts\SwitchScene.cs" Line="1" Column="1" />
-      <File FileName="Assets\Credit\New Folder\ChangePic.cs" Line="26" Column="20" />
+      <File FileName="Assets\Credit\New Folder\ChangePic.cs" Line="1" Column="1" />
       <File FileName="Assets\Credit\New Folder\FadePic.cs" Line="1" Column="1" />
       <File FileName="Assets\Credit\New Folder\FadeText.cs" Line="1" Column="1" />
       <File FileName="Assets\Credit\New Folder\PicMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SettingRunTime.cs" Line="32" Column="18" />
+      <File FileName="Assets\Scripts\SettingRunTime.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PauseScreen.cs" Line="31" Column="59" />
+      <File FileName="Assets\Scripts\OpenGate.cs" Line="35" Column="6" />
+      <File FileName="Assets\Scripts\_MAINPLAYER.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

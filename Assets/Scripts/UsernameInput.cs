@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class UsernameInput : MonoBehaviour {
     public Button Confirming;
     public InputField Input;
-    void OnConfirmClicked()
+    public void OnConfirmClicked()
     {
         if(Input.text != "" || Input.text != null)
         {

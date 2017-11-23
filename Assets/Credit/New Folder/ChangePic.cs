@@ -23,7 +23,6 @@ public class ChangePic : MonoBehaviour {
 
 	IEnumerator Start()
 	{
-		Debug.Log ("Hi");
 		Sprite[] spr = { t1, t2, t3, t4, t5, t6, t7, t8, t9, t10 };
 		for (int i = 0; i < 10; i++) 
 		{

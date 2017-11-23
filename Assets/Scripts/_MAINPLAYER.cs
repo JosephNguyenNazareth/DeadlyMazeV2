@@ -30,7 +30,7 @@ public class _MAINPLAYER : MonoBehaviour {
         // audio
         m_QuarterNote = 60 / bpm;
         m_TransitionIn = m_QuarterNote;
-        m_TransitionOut = m_QuarterNote * 32;
+        m_TransitionOut = m_QuarterNote * 16;
     }
 
     private void OnConsumeItem (Item item) {
