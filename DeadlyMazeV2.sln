@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadlyMazeV2", "DeadlyMazeV2.csproj", "{407FEFBB-DBC7-A555-ECDB-54AABF7C2552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadlyMazeV2.Editor", "DeadlyMazeV2.Editor.csproj", "{A6792B7F-D77C-8E86-6344-DC4AD83E462A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407FEFBB-DBC7-A555-ECDB-54AABF7C2552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407FEFBB-DBC7-A555-ECDB-54AABF7C2552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407FEFBB-DBC7-A555-ECDB-54AABF7C2552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407FEFBB-DBC7-A555-ECDB-54AABF7C2552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6792B7F-D77C-8E86-6344-DC4AD83E462A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6792B7F-D77C-8E86-6344-DC4AD83E462A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6792B7F-D77C-8E86-6344-DC4AD83E462A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6792B7F-D77C-8E86-6344-DC4AD83E462A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

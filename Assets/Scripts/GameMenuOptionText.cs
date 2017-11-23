@@ -48,6 +48,7 @@ namespace GameMenu
         ScrollRect Slider;
         float SlidingRange = 1f - (float)(Name.Length - 3) / 20; //standarlize  value in slider (from 1 to SlidingRange)
         GameObject[] LoadPattern;
+        GameObject MainCharacter;
         /***************************/
         //GameObject for settings
         bool IsLoad = false;
@@ -88,7 +89,7 @@ namespace GameMenu
         /************************/
         #endregion
         // Use this for initialization
-        void Start()
+       public void Start()
         {
             isChosen = false; //to decide whether user chooses.
             isFade = true; //to decide whether a part of game is fading
@@ -190,6 +191,7 @@ namespace GameMenu
             over3 = 0;
             BlackBackground = GameObject.Find("BlackBackground").GetComponent<Renderer>();
             /*****************************/
+            MainCharacter = GameObject.Find("FPSController");
         }
         // Update is called once per frame
         void Update()
@@ -313,7 +315,8 @@ namespace GameMenu
                     }
                     if (NextScene) // animation completed! Turning to next scene
                     {
-                        // Application.LoadLevel
+                        SceneManager.UnloadSceneAsync("GameMenu");
+                        SceneManager.LoadScene("UsernameInput");
                     }
                 }
             }
@@ -446,7 +449,7 @@ namespace GameMenu
                         //Fade out
                         if (!IsDataChosen) //return to main screen
                         {
-                            over1 += Time.deltaTime / (1f / 2);
+                            over1 += Time.deltaTime / (5f);
                             if (over1 <= 1)
                             {
                                 //fade in for main option texts
@@ -556,7 +559,7 @@ namespace GameMenu
                             else
                                 LoadBlack.material.color = new Color(LoadBlack.material.color.r, LoadBlack.material.color.g, LoadBlack.material.color.b, 1);
                             //Load to selected game file
-                            Application.Unload();
+                            SceneManager.UnloadSceneAsync("GameMenu");
                             SceneManager.LoadScene(_MAINPLAYER.CurrentPlayer.GetScene());
                         }
                     }
@@ -1248,4 +1251,5 @@ namespace GameMenu
         }
         #endregion
     }
+    
 }

@@ -20,7 +20,7 @@ namespace Player
         int process; //min:0%, max:100%
         string sceneName; //current name of the scene
         //position must not be collided with enemy area
-        float x, y, z;
+        public float x, y, z;
         #region SavedSetting
         public float Sound;
         public float BGM;
@@ -62,7 +62,7 @@ namespace Player
             float Sound = 100;
             float BGM = 100;
             bool Fullscreen = true;
-            x = 0; y = 15; z = -5.2f;
+            x = -107.2f; y = 0f; z = 83.1f;
             sceneName = "maze1";
         }
         #endregion
