@@ -25,15 +25,14 @@ public class PauseScreen : MonoBehaviour {
         MainPlayer.transform.position = new Vector3(_MAINPLAYER.CurrentPlayer.x, _MAINPLAYER.CurrentPlayer.y, _MAINPLAYER.CurrentPlayer.z);
     }
     void Update () {
-        
         if (!FinishCanvas.gameObject.activeInHierarchy) {
             if (Input.GetKeyDown (KeyCode.Escape)) {
                 rot1 = FPSController.gameObject.transform.rotation.eulerAngles;
                 rot2 = FirstPerson.gameObject.transform.rotation.eulerAngles;
-                ResumeTask ();
-                
+				CreditCanvas.gameObject.SetActive (false);
+                ResumeTask ();               
             }
-			if (PauseCanvas.gameObject.activeInHierarchy || LoadCanvas.gameObject.activeInHierarchy || SettingCanvas.gameObject.activeInHierarchy) {
+			if (PauseCanvas.gameObject.activeInHierarchy || LoadCanvas.gameObject.activeInHierarchy || SettingCanvas.gameObject.activeInHierarchy || CreditCanvas.gameObject.activeInHierarchy) {
                 FPSController.gameObject.transform.eulerAngles = rot1;
                 FirstPerson.gameObject.transform.eulerAngles = rot2;
             }
@@ -56,9 +55,8 @@ public class PauseScreen : MonoBehaviour {
     /// Resume task will back to game play
     /// </summary>
     public void ResumeTask () {
-        if (!PauseCanvas.gameObject.activeInHierarchy) {
+		if (!PauseCanvas.gameObject.activeInHierarchy || CreditCanvas.gameObject.activeInHierarchy) {
             PauseCanvas.gameObject.SetActive (true);
-			CreditCanvas.gameObject.SetActive (false);
             Time.timeScale = 0;
 
         } else {

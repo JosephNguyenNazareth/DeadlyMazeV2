@@ -9,6 +9,7 @@ public class SettingRunTime : MonoBehaviour {
     public GameObject Sound;
     public GameObject BGM;
 	public AudioMixer MusicPlayer;
+	public Transform SettingCanvas;
 	public Transform CreditCanvas;
     public Toggle Fullscreen;
 
@@ -27,8 +28,8 @@ public class SettingRunTime : MonoBehaviour {
         Screen.fullScreen = Fullscreen.GetComponent<Toggle>().IsActive();
     }
 	public void Credit() {
-		if (gameObject.activeInHierarchy) {
-			gameObject.SetActive (false);
+		if (SettingCanvas.gameObject.activeInHierarchy) {
+			SettingCanvas.gameObject.SetActive (false);
 			CreditCanvas.gameObject.SetActive (true);
 		}
 	}

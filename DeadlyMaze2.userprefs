@@ -1,50 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\OpenGate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PauseScreen.cs">
     <Files>
-      <File FileName="Assets\Scripts\SettingRunTime.cs" Line="29" Column="1" />
-      <File FileName="Assets\Scripts\_MAINPLAYER.cs" Line="21" Column="1" />
-      <File FileName="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\Player.cs" Line="65" Column="34" />
-      <File FileName="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" Line="162" Column="17" />
-      <File FileName="Assets\Scripts\OpenGate.cs" Line="28" Column="29" />
-      <File FileName="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" Line="70" Column="10" />
+      <File FileName="Assets\Scripts\SwitchScene.cs" Line="8" Column="36" />
+      <File FileName="Assets\Credit\New Folder\ChangePic.cs" Line="26" Column="20" />
+      <File FileName="Assets\Credit\New Folder\FadePic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Credit\New Folder\FadeText.cs" Line="1" Column="1" />
+      <File FileName="Assets\Credit\New Folder\PicMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SettingRunTime.cs" Line="32" Column="45" />
+      <File FileName="Assets\Scripts\PauseScreen.cs" Line="60" Column="53" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DeadlyMaze2" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="InventoryMaster" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Hotbar" expanded="True" />
-                  <Node name="Item" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Scripts" expanded="True">
-                <Node name="Main_Player" expanded="True">
-                  <Node name="Characters" expanded="True">
-                    <Node name="FirstPersonCharacter" expanded="True">
-                      <Node name="Scripts" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-                <Node name="OpenGate.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="Assembly-CSharp-Editor" expanded="True">
-              <Node name="InventoryMaster" expanded="True">
-                <Node name="Editor" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State name="__root__">
-          <Node name="DeadlyMaze2" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
