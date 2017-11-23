@@ -2,19 +2,15 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class SettingRunTime : MonoBehaviour {
     public GameObject Sound;
     public GameObject BGM;
+	public AudioMixer MusicPlayer;
+	public Transform CreditCanvas;
     public Toggle Fullscreen;
-	// Use this for initialization
-	void Start () {
-    }
-	
-	// Update is called once per frame
-	void Update () {
-    }
 
     public void OnSoundChanged()
     {
@@ -23,10 +19,17 @@ public class SettingRunTime : MonoBehaviour {
 
     public void OnBGMChanged()
     {
-        _MAINPLAYER.CurrentPlayer.Sound = BGM.GetComponent<Slider>().value;
+        _MAINPLAYER.CurrentPlayer.BGM = BGM.GetComponent<Slider>().value;
+		MusicPlayer.SetFloat ("MusicPlayer", _MAINPLAYER.CurrentPlayer.BGM);
     }
     public void OnFullScreenChanged()
     {
         Screen.fullScreen = Fullscreen.GetComponent<Toggle>().IsActive();
     }
+	public void Credit() {
+		if (gameObject.activeInHierarchy) {
+			gameObject.SetActive (false);
+			CreditCanvas.gameObject.SetActive (true);
+		}
+	}
 }

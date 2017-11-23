@@ -9,6 +9,7 @@ public class PauseScreen : MonoBehaviour {
     public Transform PauseCanvas;
     public Transform LoadCanvas;
     public Transform SettingCanvas;
+	public Transform CreditCanvas;
     /// <summary>
     /// Finish canvas appears when user reach finish zone
     /// At this time, pause canvas deactivated
@@ -57,6 +58,7 @@ public class PauseScreen : MonoBehaviour {
     public void ResumeTask () {
         if (!PauseCanvas.gameObject.activeInHierarchy) {
             PauseCanvas.gameObject.SetActive (true);
+			CreditCanvas.gameObject.SetActive (false);
             Time.timeScale = 0;
 
         } else {

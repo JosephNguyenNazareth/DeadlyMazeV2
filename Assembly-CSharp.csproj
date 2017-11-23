@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AA78513E-D3ED-1472-D5B9-17BE5A014056}</ProjectGuid>
+    <ProjectGuid>{0CB61409-1F2C-00E4-9686-66B89BE58E73}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -123,6 +123,7 @@
      <Compile Include="Assets\Scripts\GameMenuOptionText.cs" />
      <Compile Include="Assets\Scripts\hit.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\LoadRunTime.cs" />
      <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Scripts\Main_Player\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -177,15 +178,19 @@
      <Compile Include="Assets\Scripts\Monster.cs" />
      <Compile Include="Assets\Scripts\MoveToTarget.cs" />
      <Compile Include="Assets\Scripts\MoveToTargetwolf.cs" />
+     <Compile Include="Assets\Scripts\NewUser.cs" />
      <Compile Include="Assets\Scripts\OpenGate.cs" />
      <Compile Include="Assets\Scripts\PauseScreen.cs" />
      <Compile Include="Assets\Scripts\PoleMap.cs" />
      <Compile Include="Assets\Scripts\PushWall.cs" />
+     <Compile Include="Assets\Scripts\SettingRunTime.cs" />
      <Compile Include="Assets\Scripts\ShooterFlame.cs" />
      <Compile Include="Assets\Scripts\ShowItem.cs" />
+     <Compile Include="Assets\Scripts\SwitchScene.cs" />
      <Compile Include="Assets\Scripts\TrapArrow.cs" />
      <Compile Include="Assets\Scripts\TrapAxe.cs" />
      <Compile Include="Assets\Scripts\TrapMace.cs" />
+     <Compile Include="Assets\Scripts\UsernameInput.cs" />
      <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
      <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
      <None Include="Assets\Models\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />

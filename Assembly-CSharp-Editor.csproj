@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1B2DA3F6-877D-EA11-B71D-8A9C842E8CDE}</ProjectGuid>
+    <ProjectGuid>{885E5380-4105-1877-8794-8BA77FE3275A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -154,7 +154,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="JMOAssets">
- <HintPath>D:/tai lieu BK/hoc ky 3/OOP/assignment/testgame/DeadlyMaze/Assets/Models/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ <HintPath>D:/tai lieu BK/hoc ky 3/OOP/assignment/testgame/DeadlyMaze2/Assets/Models/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Admin/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -174,7 +174,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{AA78513E-D3ED-1472-D5B9-17BE5A014056}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{0CB61409-1F2C-00E4-9686-66B89BE58E73}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

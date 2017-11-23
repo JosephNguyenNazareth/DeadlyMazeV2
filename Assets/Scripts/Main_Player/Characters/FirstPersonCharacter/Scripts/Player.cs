@@ -62,7 +62,7 @@ namespace Player
             float Sound = 100;
             float BGM = 100;
             bool Fullscreen = true;
-            x = -107.2f; y = 0f; z = 83.1f;
+         x = 325f; y = 3f; z = -4f;
             sceneName = "maze1";
         }
         #endregion

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class _MAINPLAYER : MonoBehaviour {
     public static Player.Player CurrentPlayer = new Player.Player ();
@@ -21,8 +22,10 @@ public class _MAINPLAYER : MonoBehaviour {
     private Vector3 rot1;
     private Vector3 rot2;
     public Text bullet_number;
+	public GameObject MainPlayer;
 
     void Start () {
+		MainPlayer = GameObject.Find ("FPSController");
         Inventory.ItemConsumed += OnConsumeItem;
         // audio
         m_QuarterNote = 60 / bpm;
@@ -157,4 +160,8 @@ public class _MAINPLAYER : MonoBehaviour {
         FPSController.gameObject.transform.eulerAngles = rot1;
         FirstPerson.gameObject.transform.eulerAngles = rot2;
     }
+	/*void ContinueLastSave() {
+		Application.Unload ();
+		SceneManager.LoadScene (_MAINPLAYER.CurrentPlayer.GetScene ());
+	}*/
 }
