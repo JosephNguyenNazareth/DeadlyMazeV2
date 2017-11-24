@@ -9,8 +9,9 @@
       <File FileName="Assets\Credit\New Folder\PicMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SettingRunTime.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PauseScreen.cs" Line="31" Column="59" />
-      <File FileName="Assets\Scripts\OpenGate.cs" Line="35" Column="6" />
-      <File FileName="Assets\Scripts\_MAINPLAYER.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OpenGate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\_MAINPLAYER.cs" Line="33" Column="45" />
+      <File FileName="Assets\Scripts\UsernameInput.cs" Line="15" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
